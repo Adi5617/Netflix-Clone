@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <script>
+        alert("Netflix Clone");
+    </script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+            height: 2000px;
+    }
+    .container{
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.712)50%, rgba(0, 0, 0, 0.705)50%), url("IN-en-20220606-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg"
+            );
+    }
+    .top{
+        padding-top: 25px;
+        align-items: right;
+        display: block;
+        padding-left: 20px;
+    }
+    .top .logo{
+        color: rgb(253, 17, 17);
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: .5px;
+    }
+    .top button{
+      font-size: 20px;
+      color: black;
+      background-color: transparent;
+    }
+    .top button select{
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .top button select option{
+        background-color: grey;
+    }
+    .top button select option:hover{
+        background-color: black;
+        transition: 1s ease-in;
+    }
+    .top button select:focus{
+        outline: none;
+    }
+    .top a{
+        color: white;
+        background-color: rgba(245, 13, 13, 0.87);
+        font-family: arial;
+        text-decoration: none;
+        padding-top: 8px;
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 8px;
+        border-radius: 5px;
+        font-style: normal;
+    }
+    h1 .main {
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 67px;
+    }
+    .watch {
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+    }
+    .ready {
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .email {
+        word-spacing: 0;
+        display: block;
+    }
+    .email input {
+        font-size: 20px;
+        padding: 23px;
+        width: 550px;
+        height: 30px;
+    }
+    .email a {
+        text-decoration: none;
+        font-size: 30px;
+        background-color: rgba(236, 17, 17, 0.884);
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(255, 255, 255, 0.932);
+        position: absolute;
+        padding: 25px;
+        height: 30px;
+    }
+    .gap{
+        background-color: rgb(46, 45, 45);
+        color: rgb(46, 45, 45);
+        font-size: 15px;
+    }
+    .next{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 160px;
+        font-size-adjust: inherit;
+    }
+    .next span{
+        font-size: 72px;
+        margin-bottom: 5px;
+        top: -50px;
+    }
+    .next .span{
+        font-size: 36px;
+    }
+    .gapp{
+        background-color: rgb(46, 45, 45);
+        color: rgb(46, 45, 45);
+        font-size: 15px;
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="top" align="center">
+        <span class="logo">NETFLIX</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button>
+        <select>
+            <option>English</option>
+            <option>हिन्दी</option>
+        </select>
+    </button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#" class="signin" align="right">Sign In</a>   
+</div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h1>
+        <div class="main" align="center">
+            Unlimited movies, TV <br>shows and more.
+        </div>
+    </h1><br>
+    <div class="watch" align="center">
+        Watch anywhere. Cancel anytime.
+    </div><br><br>
+    <div class="ready" align="center">
+      Ready to watch? Enter your email to create or restart your membership.
+    </div><br>
+    <div class="email" align="left">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email address" name="none" placeholder="Email Address">
+        <a href="#">&nbsp;&nbsp;&nbsp;Get Started >&nbsp;&nbsp;&nbsp;</a>
+    </div><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div class="gap">
+     a
+    </div>
+    <div class="next">
+       <span> Enjoy on your TV.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+       </span><br><br>
+       <span class="span">
+        Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and<br> more.
+       </span>
+    </div>
+    <div class="gapp">
+        a
+       </div>
+</body>
+</html>
